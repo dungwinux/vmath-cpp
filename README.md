@@ -1,2 +1,2 @@
 # vmath-cpp
-"Remastered" version of vmath
+This is a "Remastered" version of vmath
