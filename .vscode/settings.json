@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.pas": "pascal",
+        "xlocale": "cpp",
+        "ostream": "cpp"
+    }
+}
