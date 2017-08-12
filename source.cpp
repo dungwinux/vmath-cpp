@@ -1,4 +1,4 @@
 #include "source.h"
 int main(){
-	cout << compiler << endl <<compiler_ver << endl;
+	cout << ProgramName << " " << VersionInfo << endl << Copyright << endl;
 }

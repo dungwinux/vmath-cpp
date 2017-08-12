@@ -51,7 +51,8 @@ using namespace std;
 
 #endif
 
-#define Copyright "Copyright (c) 2016-2017 Nguyen Tuan Dung (Winux8yt3)."
+#define Copyright "Copyright (c) 2017 Nguyen Tuan Dung (Winux8yt3)."
 #define ProgramName "VMath-cpp"
 #define Version "0.1"
 #define VersionInfo "Alpha"
+#define Build __DATE__ " " __TIME__
