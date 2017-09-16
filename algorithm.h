@@ -21,12 +21,15 @@ long long BCNN(long long a, long long b){
     return a / UCLN(a,b) * b;
 }
 
+bool isInt(double x){
+    return x == (long long)x;
+}
+
 bool isPSqr(long long x){
-    return (long long)sqrt(x)==sqrt(x);
+    return isInt(sqrt(x));
 }
 
 bool isFibb(long long x){
     long long n = x*x*5;
     return (isPSqr(n+4) || isPSqr(n-4));
 }
-
